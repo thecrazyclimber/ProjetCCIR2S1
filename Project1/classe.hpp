@@ -102,7 +102,7 @@ public:
 enum class Ressource {
     noigrumes,// Ressource naturelle
     fer, // Ressource naturelle
-    demi_capsule, // Produit intermédiaire
+    capsule, // Produit intermédiaire
     bouton, // Produit intermédiaire
     pokéball // Produit fini
 };
