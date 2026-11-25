@@ -1,0 +1,38 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Louis\\Desktop\\Etude CIR\\CIR2\\Informatique\\POO-C\u002B\u002B\\projet\\ProjetCCIR2S1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01C46D9C-43F1-43E3-9973-44CAAD6681EB}|Project1\\Project1.vcxproj|C:\\Users\\Louis\\Desktop\\Etude CIR\\CIR2\\Informatique\\POO-C\u002B\u002B\\projet\\ProjetCCIR2S1\\Project1\\classe.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{01C46D9C-43F1-43E3-9973-44CAAD6681EB}|Project1\\Project1.vcxproj|solutionrelative:Project1\\classe.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "classe.hpp",
+              "DocumentMoniker": "C:\\Users\\Louis\\Desktop\\Etude CIR\\CIR2\\Informatique\\POO-C\u002B\u002B\\projet\\ProjetCCIR2S1\\Project1\\classe.hpp",
+              "RelativeDocumentMoniker": "Project1\\classe.hpp",
+              "ToolTip": "C:\\Users\\Louis\\Desktop\\Etude CIR\\CIR2\\Informatique\\POO-C\u002B\u002B\\projet\\ProjetCCIR2S1\\Project1\\classe.hpp",
+              "RelativeToolTip": "Project1\\classe.hpp",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-11-25T15:19:42.607Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
