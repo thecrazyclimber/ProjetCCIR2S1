@@ -28,6 +28,9 @@
     <Filter Include="Fichiers d%27en-tête\Recettes">
       <UniqueIdentifier>{33ddc0ad-9ece-4a06-b767-e736efcbde19}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers sources\Machine">
+      <UniqueIdentifier>{3220e0fc-7b10-45ed-bb39-b47bb037d47b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="corrClasse.hpp">
@@ -57,5 +60,10 @@
     <ClInclude Include="ReseauEnergie.hpp">
       <Filter>Fichiers d%27en-tête\gestion Energie</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Machine.cpp">
+      <Filter>Fichiers sources\Machine</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
