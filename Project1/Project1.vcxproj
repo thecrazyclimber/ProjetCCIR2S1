@@ -140,7 +140,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Case.hpp" />
-    <ClInclude Include="classe.hpp" />
     <ClInclude Include="Convoyeur.hpp" />
     <ClInclude Include="corrClasse.hpp" />
     <ClInclude Include="Generateur.hpp" />

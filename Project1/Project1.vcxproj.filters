@@ -30,9 +30,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="classe.hpp">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
     <ClInclude Include="corrClasse.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
