@@ -1,0 +1,12 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\mathis\\desktop\\projetccir2s1\\project1\\stokage.hpp",
+        "ProvidedModule": "",
+        "Includes": [
+            "c:\\users\\mathis\\desktop\\projetccir2s1\\project1\\case.hpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -139,8 +139,16 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Case.hpp" />
     <ClInclude Include="classe.hpp" />
+    <ClInclude Include="Convoyeur.hpp" />
     <ClInclude Include="corrClasse.hpp" />
+    <ClInclude Include="Generateur.hpp" />
+    <ClInclude Include="Grille.hpp" />
+    <ClInclude Include="Machine.hpp" />
+    <ClInclude Include="Recette.hpp" />
+    <ClInclude Include="ReseauEnergie.hpp" />
+    <ClInclude Include="Stokage.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

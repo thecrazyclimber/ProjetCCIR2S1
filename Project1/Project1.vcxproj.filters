@@ -13,6 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\Position Map">
+      <UniqueIdentifier>{a250df1f-86aa-44db-806d-c23f344ba04f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Stocks &amp; Convoyeur">
+      <UniqueIdentifier>{2f8edbc9-bc71-470f-9070-97cf9b6fd8b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Machines">
+      <UniqueIdentifier>{13a4482e-d1d1-4843-ad88-57f0dbe831be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\gestion Energie">
+      <UniqueIdentifier>{57bc999f-ea55-47cb-bff3-de0cc8c902dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Recettes">
+      <UniqueIdentifier>{33ddc0ad-9ece-4a06-b767-e736efcbde19}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="classe.hpp">
@@ -20,6 +35,30 @@
     </ClInclude>
     <ClInclude Include="corrClasse.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Grille.hpp">
+      <Filter>Fichiers d%27en-tête\Position Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Case.hpp">
+      <Filter>Fichiers d%27en-tête\Position Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Convoyeur.hpp">
+      <Filter>Fichiers d%27en-tête\Stocks &amp; Convoyeur</Filter>
+    </ClInclude>
+    <ClInclude Include="Stokage.hpp">
+      <Filter>Fichiers d%27en-tête\Stocks &amp; Convoyeur</Filter>
+    </ClInclude>
+    <ClInclude Include="Machine.hpp">
+      <Filter>Fichiers d%27en-tête\Machines</Filter>
+    </ClInclude>
+    <ClInclude Include="Recette.hpp">
+      <Filter>Fichiers d%27en-tête\Recettes</Filter>
+    </ClInclude>
+    <ClInclude Include="Generateur.hpp">
+      <Filter>Fichiers d%27en-tête\gestion Energie</Filter>
+    </ClInclude>
+    <ClInclude Include="ReseauEnergie.hpp">
+      <Filter>Fichiers d%27en-tête\gestion Energie</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
