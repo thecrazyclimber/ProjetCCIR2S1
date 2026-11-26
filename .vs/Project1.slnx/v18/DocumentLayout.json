@@ -3,12 +3,21 @@
   "WorkspaceRootPath": "C:\\Users\\Mathis\\Desktop\\ProjetCCIR2S1\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{01C46D9C-43F1-43E3-9973-44CAAD6681EB}|Project1\\Project1.vcxproj|C:\\Users\\Mathis\\Desktop\\ProjetCCIR2S1\\Project1\\Case.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{01C46D9C-43F1-43E3-9973-44CAAD6681EB}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Case.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01C46D9C-43F1-43E3-9973-44CAAD6681EB}|Project1\\Project1.vcxproj|C:\\Users\\Mathis\\Desktop\\ProjetCCIR2S1\\Project1\\Case.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{01C46D9C-43F1-43E3-9973-44CAAD6681EB}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Case.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+=======
+      "AbsoluteMoniker": "D:0:0:{01C46D9C-43F1-43E3-9973-44CAAD6681EB}|Project1\\Project1.vcxproj|C:\\Users\\Mathis\\Desktop\\ProjetCCIR2S1\\Project1\\Correct_Classe.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{01C46D9C-43F1-43E3-9973-44CAAD6681EB}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Correct_Classe.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01C46D9C-43F1-43E3-9973-44CAAD6681EB}|Project1\\Project1.vcxproj|C:\\Users\\Mathis\\Desktop\\ProjetCCIR2S1\\Project1\\classe.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{01C46D9C-43F1-43E3-9973-44CAAD6681EB}|Project1\\Project1.vcxproj|solutionrelative:Project1\\classe.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -47,6 +56,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< Updated upstream
               "Title": "Case.cpp",
               "DocumentMoniker": "C:\\Users\\Mathis\\Desktop\\ProjetCCIR2S1\\Project1\\Case.cpp",
               "RelativeDocumentMoniker": "Project1\\Case.cpp",
@@ -55,6 +65,30 @@
               "ViewState": "AgIAAEMAAAAAAAAAAAAAAFsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-11-26T07:50:43.366Z",
+=======
+              "Title": "Correct_Classe.hpp",
+              "DocumentMoniker": "C:\\Users\\Mathis\\Desktop\\ProjetCCIR2S1\\Project1\\Correct_Classe.hpp",
+              "RelativeDocumentMoniker": "Project1\\Correct_Classe.hpp",
+              "ToolTip": "C:\\Users\\Mathis\\Desktop\\ProjetCCIR2S1\\Project1\\Correct_Classe.hpp",
+              "RelativeToolTip": "Project1\\Correct_Classe.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgBAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-11-25T22:19:07.384Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%3"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "classe.hpp",
+              "DocumentMoniker": "C:\\Users\\Mathis\\Desktop\\ProjetCCIR2S1\\Project1\\classe.hpp",
+              "RelativeDocumentMoniker": "Project1\\classe.hpp",
+              "ToolTip": "C:\\Users\\Mathis\\Desktop\\ProjetCCIR2S1\\Project1\\classe.hpp",
+              "RelativeToolTip": "Project1\\classe.hpp",
+              "ViewState": "AgIAANwAAAAAAAAAAAAAAPQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-11-25T15:19:42.607Z",
+>>>>>>> Stashed changes
               "EditorCaption": "",
               "OwnerCaption": "%3"
             }

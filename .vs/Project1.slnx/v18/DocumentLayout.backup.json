@@ -9,11 +9,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": -1,
+=======
+          "SelectedChildIndex": 1,
+>>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+<<<<<<< Updated upstream
+=======
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "classe.hpp",
+              "DocumentMoniker": "C:\\Users\\Mathis\\Desktop\\ProjetCCIR2S1\\Project1\\classe.hpp",
+              "RelativeDocumentMoniker": "Project1\\classe.hpp",
+              "ToolTip": "C:\\Users\\Mathis\\Desktop\\ProjetCCIR2S1\\Project1\\classe.hpp",
+              "RelativeToolTip": "Project1\\classe.hpp",
+              "ViewState": "AgIAANsAAAAAAAAAAAAwwOYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-11-25T15:19:42.607Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%3"
+>>>>>>> Stashed changes
             }
           ]
         }

@@ -39,6 +39,7 @@
     <ClInclude Include="corrClasse.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
+<<<<<<< Updated upstream
     <ClInclude Include="Grille.hpp">
       <Filter>Fichiers d%27en-tête\Position Map</Filter>
     </ClInclude>
@@ -71,5 +72,10 @@
     <ClCompile Include="Machine.cpp">
       <Filter>Fichiers sources\Machine</Filter>
     </ClCompile>
+=======
+    <ClInclude Include="Correct_Classe.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+>>>>>>> Stashed changes
   </ItemGroup>
 </Project>
