@@ -31,6 +31,9 @@
     <Filter Include="Fichiers sources\Position Map">
       <UniqueIdentifier>{f213ece1-e67b-4028-aa0c-8e74303f8b51}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers sources\Machine">
+      <UniqueIdentifier>{3220e0fc-7b10-45ed-bb39-b47bb037d47b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="corrClasse.hpp">
@@ -64,6 +67,9 @@
   <ItemGroup>
     <ClCompile Include="Case.cpp">
       <Filter>Fichiers sources\Position Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Machine.cpp">
+      <Filter>Fichiers sources\Machine</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
