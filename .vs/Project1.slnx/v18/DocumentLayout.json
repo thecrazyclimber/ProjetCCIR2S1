@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Mathis\\Desktop\\ProjetCCIR2S1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{01C46D9C-43F1-43E3-9973-44CAAD6681EB}|Project1\\Project1.vcxproj|C:\\Users\\Mathis\\Desktop\\ProjetCCIR2S1\\Project1\\Grille.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{01C46D9C-43F1-43E3-9973-44CAAD6681EB}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Grille.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01C46D9C-43F1-43E3-9973-44CAAD6681EB}|Project1\\Project1.vcxproj|C:\\Users\\Mathis\\Desktop\\ProjetCCIR2S1\\Project1\\grille.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{01C46D9C-43F1-43E3-9973-44CAAD6681EB}|Project1\\Project1.vcxproj|solutionrelative:Project1\\grille.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{01C46D9C-43F1-43E3-9973-44CAAD6681EB}|Project1\\Project1.vcxproj|C:\\Users\\Mathis\\Desktop\\ProjetCCIR2S1\\Project1\\Machine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{01C46D9C-43F1-43E3-9973-44CAAD6681EB}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Machine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -18,21 +26,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 198,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Grille.hpp",
+              "DocumentMoniker": "C:\\Users\\Mathis\\Desktop\\ProjetCCIR2S1\\Project1\\Grille.hpp",
+              "RelativeDocumentMoniker": "Project1\\Grille.hpp",
+              "ToolTip": "C:\\Users\\Mathis\\Desktop\\ProjetCCIR2S1\\Project1\\Grille.hpp",
+              "RelativeToolTip": "Project1\\Grille.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-11-27T12:40:39.044Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%3"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Grille.cpp",
+              "DocumentMoniker": "C:\\Users\\Mathis\\Desktop\\ProjetCCIR2S1\\Project1\\Grille.cpp",
+              "RelativeDocumentMoniker": "Project1\\Grille.cpp",
+              "ToolTip": "C:\\Users\\Mathis\\Desktop\\ProjetCCIR2S1\\Project1\\Grille.cpp*",
+              "RelativeToolTip": "Project1\\Grille.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-27T12:37:35.904Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%3"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Machine.cpp",
               "DocumentMoniker": "C:\\Users\\Mathis\\Desktop\\ProjetCCIR2S1\\Project1\\Machine.cpp",
               "RelativeDocumentMoniker": "Project1\\Machine.cpp",
               "ToolTip": "C:\\Users\\Mathis\\Desktop\\ProjetCCIR2S1\\Project1\\Machine.cpp",
               "RelativeToolTip": "Project1\\Machine.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-11-27T12:26:22.611Z",
               "EditorCaption": "",
@@ -40,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Case.hpp",
               "DocumentMoniker": "C:\\Users\\Mathis\\Desktop\\ProjetCCIR2S1\\Project1\\Case.hpp",
               "RelativeDocumentMoniker": "Project1\\Case.hpp",
@@ -49,7 +85,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAIAwwBEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-11-26T08:53:17.743Z",
-              "EditorCaption": "",
               "OwnerCaption": "%3"
             }
           ]
