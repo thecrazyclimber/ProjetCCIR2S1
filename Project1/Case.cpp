@@ -10,11 +10,6 @@ using namespace std;
 //    Case
 //========================================
 
-    //int x;
-    //int y;
-    //Elem type;
-    //ElementGrille* occupant;
-
 
 Case::Case() {
     setX(0);

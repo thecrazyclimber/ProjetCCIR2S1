@@ -1,16 +1,21 @@
 #pragma once
-#include <vector>
 #include "Case.hpp"
+
 
 class Grille {
 private:
-    std::vector<std::vector<Case>> cases;
+    static const int LARGEUR = 200;
+    static const int LONGUEUR = 150;
+    Case cases[LARGEUR][LONGUEUR];
 
 public:
     Grille();
-    Grille(int, int);
 
-    Case& getCase(int x, int y);
+    void setLongueur(int);
+    void setLargeur(int);
+    void setCase(Case&, int, int);
+
+    int getLongueur() const;
+    int getLargeur() const;
     const Case& getCase(int x, int y) const;
-    bool estDansGrille(int x, int y) const;
 };
