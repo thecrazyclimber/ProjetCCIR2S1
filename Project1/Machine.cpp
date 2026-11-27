@@ -11,7 +11,7 @@
 
 //=============================== Machine =====================================
 
-Machine::Machine(std::string id, Case* pos, float conso, Recette recette, ReseauEnergie* reseau) {
+Machine::Machine(std::string id, Case* pos, float conso, Recette recette, ReseauEnergie* reseau) : id(id), pos(pos), conso(conso), recette(recette), reseau(reseau) {
 
 }
 Machine::~Machine() {}
