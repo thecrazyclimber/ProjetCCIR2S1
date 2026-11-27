@@ -12,13 +12,14 @@ using namespace std;
 
 
 Grille::Grille() {
-	for (int i = 0; i < LONGUEUR; i++) {
-		for (int j = 0; j < LARGEUR; j++) {
-			cases[i][j].setX(i);
-			cases[i][j].setY(j);
+	for (int x = 0; x < LARGEUR; x++) {
+		for (int y = 0; y < LONGUEUR; y++) {
+			cases[x][y].setX(x);
+			cases[x][y].setY(y);
 		}
 	}
 }
+
 void Grille::setCase(Case& c, int x, int y) {
 	cases[x][y] = c;
 }
@@ -29,14 +30,14 @@ int Grille::getLongueur() const {
 int Grille::getLargeur() const {
 	return LARGEUR;
 }
-const Case& Grille::getCase(int x, int y) const {
+Case& Grille::getCase(int x, int y) {
 	return cases[x][y];
 }
 
 void Grille::print() {
-	for (int i = 0; i < LONGUEUR; i++) {
-		for (int j = 0; j < LARGEUR; j++) {
-			cases[i][j].print();
+	for (int y = 0; y < LONGUEUR; y++) {        // une ligne de l'écran = un y
+		for (int x = 0; x < LARGEUR; x++) {
+			cases[x][y].print();
 		}
 		cout << endl;
 	}

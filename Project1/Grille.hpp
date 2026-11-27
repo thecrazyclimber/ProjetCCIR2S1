@@ -1,11 +1,11 @@
 #pragma once
 #include "Case.hpp"
 
+#define LARGEUR 50
+#define LONGUEUR 30
 
 class Grille {
 private:
-    static const int LARGEUR = 200;
-    static const int LONGUEUR = 150;
     Case cases[LARGEUR][LONGUEUR];
 
 public:
@@ -15,6 +15,7 @@ public:
 
     int getLongueur() const;
     int getLargeur() const;
+    Case& getCase(int x, int y);
     const Case& getCase(int x, int y) const;
 
     void print();
