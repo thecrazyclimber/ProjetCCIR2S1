@@ -9,28 +9,7 @@
 
 
 
-class Extracteur : public Machine {
-private:
-    Ressource ressourceExtraite; // Ressource naturelle infinie
-
-public:
-    Extracteur(std::string id, Case* pos, float conso, Recette recette,
-        ReseauEnergie* reseau, Ressource ressourceExtraite);
-    void produit() override;
-};
-
-class Four : public Machine {
-public:
-    Four(std::string id, Case* pos, float conso, Recette recette, ReseauEnergie* reseau);
-    void produit() override;
-};
-
-class Assembleur : public Machine {
-public:
-    Assembleur(std::string id, Case* pos, float conso, Recette recette, ReseauEnergie* reseau);
-    void produit() override;
-};
-
+//=============================== Machine =====================================
 
 Machine::Machine(std::string id, Case* pos, float conso, Recette recette, ReseauEnergie* reseau) {
 
@@ -63,4 +42,29 @@ void Machine::boucleProduction() {
 void Machine::demarrer() {
 }
 void Machine::arreter() {
+}
+
+//=============================== Extracteur =====================================
+
+Extracteur::Extracteur(std::string id, Case* pos, float conso, Recette recette,
+    ReseauEnergie* reseau, Ressource ressourceExtraite) : Machine(id, pos, conso, recette, reseau), ressourceExtraite(ressourceExtraite) {}
+
+void Extracteur::produit() {
+    // Implémentation spécifique pour l'extracteur
+}
+
+//=============================== Four =====================================
+
+Four::Four(std::string id, Case* pos, float conso, Recette recette, ReseauEnergie* reseau) : Machine(id, pos, conso, recette, reseau) {}
+
+void Four::produit() {
+    // Implémentation spécifique pour le four
+}
+
+//=============================== Assembleur =====================================
+
+Assembleur::Assembleur(std::string id, Case* pos, float conso, Recette recette, ReseauEnergie* reseau) : Machine(id, pos, conso, recette, reseau) {}
+
+void Assembleur::produit() {
+    // Implémentation spécifique pour l'assembleur
 }
