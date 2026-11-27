@@ -1,81 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Fichiers sources">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Fichiers d%27en-tête">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Fichiers de ressources">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-    <Filter Include="Fichiers d%27en-tête\Position Map">
-      <UniqueIdentifier>{a250df1f-86aa-44db-806d-c23f344ba04f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers d%27en-tête\Stocks &amp; Convoyeur">
-      <UniqueIdentifier>{2f8edbc9-bc71-470f-9070-97cf9b6fd8b3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers d%27en-tête\Machines">
-      <UniqueIdentifier>{13a4482e-d1d1-4843-ad88-57f0dbe831be}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers d%27en-tête\gestion Energie">
-      <UniqueIdentifier>{57bc999f-ea55-47cb-bff3-de0cc8c902dd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers d%27en-tête\Recettes">
-      <UniqueIdentifier>{33ddc0ad-9ece-4a06-b767-e736efcbde19}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers sources\Position Map">
-      <UniqueIdentifier>{f213ece1-e67b-4028-aa0c-8e74303f8b51}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers sources\Machine">
-      <UniqueIdentifier>{3220e0fc-7b10-45ed-bb39-b47bb037d47b}</UniqueIdentifier>
-    </Filter>
+    <ClCompile Include="Case.cpp" />
+    <ClCompile Include="Machine.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="corrClasse.hpp">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-<<<<<<< Updated upstream
-    <ClInclude Include="Grille.hpp">
-      <Filter>Fichiers d%27en-tête\Position Map</Filter>
+    <ClInclude Include="Machine.hpp">
+      <Filter>hpp</Filter>
     </ClInclude>
     <ClInclude Include="Case.hpp">
-      <Filter>Fichiers d%27en-tête\Position Map</Filter>
+      <Filter>hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="classe.hpp">
+      <Filter>hpp</Filter>
     </ClInclude>
     <ClInclude Include="Convoyeur.hpp">
-      <Filter>Fichiers d%27en-tête\Stocks &amp; Convoyeur</Filter>
+      <Filter>hpp</Filter>
     </ClInclude>
-    <ClInclude Include="Stokage.hpp">
-      <Filter>Fichiers d%27en-tête\Stocks &amp; Convoyeur</Filter>
+    <ClInclude Include="corrClasse.hpp">
+      <Filter>hpp</Filter>
     </ClInclude>
-    <ClInclude Include="Machine.hpp">
-      <Filter>Fichiers d%27en-tête\Machines</Filter>
-    </ClInclude>
-    <ClInclude Include="Recette.hpp">
-      <Filter>Fichiers d%27en-tête\Recettes</Filter>
+    <ClInclude Include="Correct_Classe.hpp">
+      <Filter>hpp</Filter>
     </ClInclude>
     <ClInclude Include="Generateur.hpp">
-      <Filter>Fichiers d%27en-tête\gestion Energie</Filter>
+      <Filter>hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Recette.hpp">
+      <Filter>hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Stokage.hpp">
+      <Filter>hpp</Filter>
     </ClInclude>
     <ClInclude Include="ReseauEnergie.hpp">
-      <Filter>Fichiers d%27en-tête\gestion Energie</Filter>
+      <Filter>hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Grille.hpp">
+      <Filter>hpp</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Case.cpp">
-      <Filter>Fichiers sources\Position Map</Filter>
-    </ClCompile>
-    <ClCompile Include="Machine.cpp">
-      <Filter>Fichiers sources\Machine</Filter>
-    </ClCompile>
-=======
-    <ClInclude Include="Correct_Classe.hpp">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
->>>>>>> Stashed changes
+    <Filter Include="hpp">
+      <UniqueIdentifier>{44fad6d5-c3b0-4815-8001-e14b0135e748}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>

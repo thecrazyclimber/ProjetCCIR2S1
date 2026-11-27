@@ -15,7 +15,7 @@ enum class Ressource {
     fer,            // Ressource naturelle
     demi_capsule,   // Produit intermédiaire
     bouton,         // Produit intermédiaire
-    pokéball        // Produit fini
+    pokeball        // Produit fini
 };
 
 

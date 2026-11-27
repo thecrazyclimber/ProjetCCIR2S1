@@ -139,7 +139,6 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-<<<<<<< Updated upstream
     <ClInclude Include="Case.hpp" />
     <ClInclude Include="Convoyeur.hpp" />
     <ClInclude Include="corrClasse.hpp" />
@@ -153,10 +152,8 @@
   <ItemGroup>
     <ClCompile Include="Case.cpp" />
     <ClCompile Include="Machine.cpp" />
-=======
     <ClInclude Include="classe.hpp" />
     <ClInclude Include="Correct_Classe.hpp" />
->>>>>>> Stashed changes
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
