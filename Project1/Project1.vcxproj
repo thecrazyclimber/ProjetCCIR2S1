@@ -152,6 +152,7 @@
   <ItemGroup>
     <ClCompile Include="Case.cpp" />
     <ClCompile Include="Machine.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClInclude Include="classe.hpp" />
     <ClInclude Include="Correct_Classe.hpp" />
   </ItemGroup>

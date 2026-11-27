@@ -14,7 +14,7 @@ using namespace std;
 Grille::Grille() {
 	for (int i = 0; i < x; i++) {
 		for (int j = 0; j < y; j++) {
-			cases[x][y]();
+			cases[i][j]();
 		}
 	}
 }
@@ -39,4 +39,34 @@ int Grille::getLargeur() const {
 }
 const Case& Grille::getCase(int x, int y) const {
 	return cases[x][y];
+}
+
+void Grille::print() {
+	for (int i = 0; i < x; i++) {
+		for (int j = 0; j < y; j++) {
+
+			if (cases[i][j].getType() == RESS_NAT) {
+				cout << "*" << ;
+			}
+			else if (cases[i][j].getType() == MACHINE) {
+				cout << "M" << ;
+			}
+			else if (cases[i][j].getType() == GENERATEUR) {
+				cout << "G" << ;
+			}
+			else if (cases[i][j].getType() == CONVOYEUR) {
+				cout << "=" << ;
+			}
+			else if (cases[i][j].getType() == CONTENEUR) {
+				cout << "#" << ;
+			}
+			else if (cases[i][j].getType() == VIDE) {
+				cout << " " << ;
+			}
+			else {
+				cout << "?" << ;
+			}
+		}
+		cout << endl;
+	}
 }

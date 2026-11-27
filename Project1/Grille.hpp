@@ -18,4 +18,6 @@ public:
     int getLongueur() const;
     int getLargeur() const;
     const Case& getCase(int x, int y) const;
+
+    void print();
 };
