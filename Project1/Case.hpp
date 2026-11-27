@@ -60,4 +60,5 @@ public:
     void setOccupant(ElementGrille* elem);   // déduit le type via elem->getTypeElem()
     
     void liberer();                          // occupant = nullptr, type = VIDE ; le gisement reste
+    void print();
 };

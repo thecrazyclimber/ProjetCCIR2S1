@@ -11,8 +11,6 @@ private:
 public:
     Grille();
 
-    void setLongueur(int);
-    void setLargeur(int);
     void setCase(Case&, int, int);
 
     int getLongueur() const;

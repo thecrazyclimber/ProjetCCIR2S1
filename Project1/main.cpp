@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 
-	Grille grille();
+	Grille grille;
 
-
+	grille.print();
 }

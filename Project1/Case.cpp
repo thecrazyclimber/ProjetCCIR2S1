@@ -5,7 +5,6 @@ using namespace std;
 
 
 
-
 //========================================
 //    Case
 //========================================
@@ -92,4 +91,29 @@ void Case::setOccupant(ElementGrille* elem) {
 void Case::liberer() {
     setOccupant(nullptr);
     setType(Elem::VIDE);   
+}
+
+void Case::print() {
+
+    if (type == Elem::RESS_NAT) {
+                cout << "*";
+    }
+    else if (type == Elem::MACHINE) {
+        cout << "M";
+    }
+    else if (type == Elem::GENERATEUR) {
+        cout << "G";
+    }
+    else if (type == Elem::CONVOYEUR) {
+        cout << "=";
+    }
+    else if (type == Elem::CONTENEUR) {
+        cout << "#";
+    }
+    else if (type == Elem::VIDE) {
+        cout << " ";
+    }
+    else {
+        cout << "?";
+    }
 }

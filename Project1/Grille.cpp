@@ -12,61 +12,31 @@ using namespace std;
 
 
 Grille::Grille() {
-	for (int i = 0; i < x; i++) {
-		for (int j = 0; j < y; j++) {
+	for (int i = 0; i < LONGUEUR; i++) {
+		for (int j = 0; j < LARGEUR; j++) {
 			cases[i][j].setX(i);
 			cases[i][j].setY(j);
 		}
 	}
-}
-
-
-
-void Grille::setLongueur(int x) {
-	longueur = x;
-}
-void Grille::setLargeur(int y) {
-	largeur = y;
 }
 void Grille::setCase(Case& c, int x, int y) {
 	cases[x][y] = c;
 }
 
 int Grille::getLongueur() const {
-	return longueur;
+	return LONGUEUR;
 }
 int Grille::getLargeur() const {
-	return largeur;
+	return LARGEUR;
 }
 const Case& Grille::getCase(int x, int y) const {
 	return cases[x][y];
 }
 
 void Grille::print() {
-	for (int i = 0; i < x; i++) {
-		for (int j = 0; j < y; j++) {
-
-			if (cases[i][j].getType() == RESS_NAT) {
-				cout << "*" << ;
-			}
-			else if (cases[i][j].getType() == MACHINE) {
-				cout << "M" << ;
-			}
-			else if (cases[i][j].getType() == GENERATEUR) {
-				cout << "G" << ;
-			}
-			else if (cases[i][j].getType() == CONVOYEUR) {
-				cout << "=" << ;
-			}
-			else if (cases[i][j].getType() == CONTENEUR) {
-				cout << "#" << ;
-			}
-			else if (cases[i][j].getType() == VIDE) {
-				cout << " " << ;
-			}
-			else {
-				cout << "?" << ;
-			}
+	for (int i = 0; i < LONGUEUR; i++) {
+		for (int j = 0; j < LARGEUR; j++) {
+			cases[i][j].print();
 		}
 		cout << endl;
 	}
