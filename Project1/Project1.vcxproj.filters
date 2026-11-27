@@ -10,6 +10,9 @@
     <ClCompile Include="main.cpp">
       <Filter>CPP</Filter>
     </ClCompile>
+    <ClCompile Include="Grille.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Machine.hpp">

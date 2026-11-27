@@ -14,7 +14,8 @@ using namespace std;
 Grille::Grille() {
 	for (int i = 0; i < x; i++) {
 		for (int j = 0; j < y; j++) {
-			cases[i][j]();
+			cases[i][j].setX(i);
+			cases[i][j].setY(j);
 		}
 	}
 }
